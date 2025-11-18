@@ -5,17 +5,21 @@ public class Age {
 
         int age = 12;
         boolean isOlder = age >= 18;
-        if (isOlder) {
+        if (isOlder)
+        {
             System.out.println("Вхід  дозволено");
-        } else {
+        }
+        else {
             System.out.println("Вхід заборонено");
         }
 
 
         int age2 = 21;
-        if (age2 >= 18) {
+        if (age2 >= 18)
+        {
             System.out.println("Вхід  дозволено");
-        } else {
+        }
+        else {
             System.out.println("Вхід заборонено");
         }
 
