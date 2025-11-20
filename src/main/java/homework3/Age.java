@@ -1,30 +1,20 @@
 package homework3;
 
+
+import java.util.Scanner;
+
 public class Age {
     public static void main(String[] args) {
 
-        int age = 12;
-        boolean isOlder = age >= 18;
-        if (isOlder)
-        {
-            System.out.println("Вхід  дозволено");
-        }
-        else {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введіть свій вік: ");
+        int ageChecker = scanner.nextInt();
+        if (ageChecker >= 18) {
+            System.out.println("Вхід дозволено");
+        } else {
             System.out.println("Вхід заборонено");
         }
 
 
-        int age2 = 21;
-        if (age2 >= 18)
-        {
-            System.out.println("Вхід  дозволено");
-        }
-        else {
-            System.out.println("Вхід заборонено");
-        }
-
-
-
-
-}
+    }
 }

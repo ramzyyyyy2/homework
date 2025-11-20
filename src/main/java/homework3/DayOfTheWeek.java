@@ -1,39 +1,23 @@
 package homework3;
 
+import java.util.Scanner;
+
 public class DayOfTheWeek {
     public static void main(String[] args) {
 
-        String day = "Monday";
-
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Будь ласочка, оберіть день, коли Ви хочете завітати:)");
+        String day = sc.nextLine().toLowerCase();
         switch (day) {
-            case "Monday":
+            case "понеділок", "вівторок", "середа", "четвер", "п'ятниця":
                 System.out.println("Робочий день");
                 break;
-            case "Tuesday":
-                System.out.println("Робочий день");
-                break;
-            case "Wednesday":
-                System.out.println("Робочий день");
-                break;
-            case "Thursday":
-                System.out.println("Робочий день");
-                break;
-            case "Friday":
-                System.out.println("Робочий день");
-                break;
-            case "Saturday":
-                System.out.println("Вихідний день");
-                break;
-            case "Sunday":
+            case "субота", "неділя":
                 System.out.println("Вихідний день");
                 break;
             default:
                 System.out.println("Невідомий день");
         }
-
-
-
-
 
 
     }
