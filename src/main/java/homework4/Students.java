@@ -19,3 +19,6 @@ public class Students {
     }
 }
 
+// TODO: (1) Назва змінної Scanner "ur_name" не відповідає Java naming conventions. Java стиль → camelCase
+// TODO: (2) Немає перевірки на пустий ввід
+// TODO: (3) Scanner слід закривати після використання: .close();
