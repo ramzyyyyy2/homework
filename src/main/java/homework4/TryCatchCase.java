@@ -11,4 +11,3 @@ public class TryCatchCase {
         }
     }
 }
-// ya stvoryv metod dilennya u classi calculator

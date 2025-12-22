@@ -12,5 +12,4 @@ public class ExpectedActualResult {
             System.out.println("Отримано: " + actual);
         }
     }
-
 }

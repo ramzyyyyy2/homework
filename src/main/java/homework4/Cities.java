@@ -9,6 +9,4 @@ public class Cities {
         cities.add("Dnipro");
         System.out.println(cities);
     }
-
-
 }
