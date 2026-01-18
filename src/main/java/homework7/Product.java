@@ -20,7 +20,7 @@ public class Product {
     public void setName(String name) {
         if (name != null && !name.isEmpty()) {
             this.name = name;
-        } else {
+        } else {// TODO: Краще викидати виключення (throw new IllegalArgumentException), а не писати в консоль
             System.out.println("Перевірте ім'я!");
         }
     }
@@ -33,7 +33,7 @@ public class Product {
     public void setPrice(double price) {
         if (price >= 0) {
             this.price = price;
-        } else {
+        } else {// TODO: Аналогічно, тут краще використовувати виключення
             System.out.println("Ціна не може бути від'ємною!");
         }
 
